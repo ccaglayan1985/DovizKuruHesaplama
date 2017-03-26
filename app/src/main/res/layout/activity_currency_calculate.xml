@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".CurrencyCalculate">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+
+    <include
+        android:id="@+id/activity_currency_calculate_incView1"
+        layout="@layout/amount_view_layout" />
+
+    <include
+        android:id="@+id/activity_currency_calculate_incView2"
+        layout="@layout/amount_view_layout" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Döviz Tipi Değiştir" />
+</LinearLayout>
